@@ -37,10 +37,10 @@ code segment
         inc si
         add di, 2
         mov ch, 0
-		jcxz ok
-		jmp short p
+	jcxz ok
+	jmp short p
 
-	ok:	ret
+    ok:	ret
 
 code ends
 
